@@ -17,4 +17,3 @@ class Figure(ABC):
         if not isinstance(other_figure, Figure):
             raise ValueError ("It is not figure")
         return self.area + other_figure.area
-

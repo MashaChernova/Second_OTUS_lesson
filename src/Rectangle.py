@@ -13,4 +13,3 @@ class Rectangle(Figure) :
     @property
     def area(self):
         return (self.side_a * self.side_b)
-

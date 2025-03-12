@@ -9,6 +9,3 @@ class Sides :
         if self.side_lenth < 0 :
             raise ValueError("Число меньше нуля")
         return self.side_lenth
-
-
-

@@ -12,4 +12,3 @@ class Circle(Figure) :
     @property
     def area(self):
         return (3.1415 * self.radius * self.radius)
-
